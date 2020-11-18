@@ -10,7 +10,7 @@
 <!-- setter DI: byType, byName
 constructor DI: constructor
 autoDetect: works for both -->
-
+ 
 <beans xmlns = "http://www.springframework.org/schema/beans"
 	xmlns:util="http://www.springframework.org/schema/util"
    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
@@ -23,10 +23,19 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
 		<property name="price" value="324234"/>
 	</bean>
 	
-	<bean id="engine" class="beans.Engine">
+	<bean id="engine111" class="beans.Engine">
 		<property name="model" value="2018"/>
 	</bean>
 	
-	<bean id="e" class="beans.Engine">
+	<bean id="e3" class="beans.Engine">
+		<property name="model" value="2018"/>
+	</bean>
+	
+	<bean id="e1" class="beans.Engine">
+		<property name="model" value="2018"/>
+	</bean>
+	
+	<bean id="e2" class="beans.Engine">
+		<property name="model" value="2018"/>
 	</bean>
 </beans>

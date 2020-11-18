@@ -9,6 +9,6 @@ public class Engine {
 
 	public void setModel(int model) {
 		this.model = model;
-	}
+	} 
 	
 }

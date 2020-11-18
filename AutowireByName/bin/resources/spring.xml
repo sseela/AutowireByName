@@ -23,10 +23,19 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
 		<property name="price" value="324234"/>
 	</bean>
 	
-	<bean id="engine" class="beans.Engine">
+	<bean id="engine111" class="beans.Engine">
 		<property name="model" value="2018"/>
 	</bean>
 	
-	<bean id="e" class="beans.Engine">
+	<bean id="e3" class="beans.Engine">
+		<property name="model" value="2018"/>
+	</bean>
+	
+	<bean id="e1" class="beans.Engine">
+		<property name="model" value="2018"/>
+	</bean>
+	
+	<bean id="e2" class="beans.Engine">
+		<property name="model" value="2018"/>
 	</bean>
 </beans>
